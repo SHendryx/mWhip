@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnCheck {
-    public static boolean connect() {
+    public static boolean connCheck() {
         Connection conn = null;
         boolean res = false;
         try {
