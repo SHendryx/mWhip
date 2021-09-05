@@ -6,12 +6,15 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com/samhendryx/mWhip/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com/samhendryx/mWhip/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/com/samhendryx/mWhip/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/com/samhendryx/mWhip/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com/mwhip/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com/mwhip/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com/mwhip/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

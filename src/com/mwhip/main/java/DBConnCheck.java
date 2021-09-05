@@ -4,16 +4,17 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnector {
-    public static void connect() {
+public class DBConnCheck {
+    public static boolean connect() {
         Connection conn = null;
+        boolean res = false;
         try {
             // db parameters
             String url = "jdbc:sqlite:media.sqlite";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
 
-            System.out.println("Connection to SQLite has been established.");
+            res = true;
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -24,7 +25,9 @@ public class DBConnector {
                 }
             } catch (SQLException ex) {
                 System.out.println(ex.getMessage());
+                res = false;
             }
         }
+        return res;
     }
 }
