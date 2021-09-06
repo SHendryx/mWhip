@@ -1,4 +1,4 @@
-package com.mwhip.main.java;
+package main.java;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
