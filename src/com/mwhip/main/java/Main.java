@@ -1,6 +1,6 @@
-package com.mwhip.main.java;
+package main.java;
 
-import static com.mwhip.main.java.DBConnCheck.connCheck;
+import static main.java.DBConnCheck.connCheck;
 
 public class Main {
     public static void main (String[] args) {
@@ -9,5 +9,6 @@ public class Main {
         //Check connection to DB
         String connMsg = connCheck() ? "Connection to SQLite DB has been established." : "Connection to SQLite DB failed.";
         System.out.println(connMsg);
+
     }
 }
